@@ -45,6 +45,7 @@
   border-radius: 5px;
 }
 
+
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -53,11 +54,18 @@ footer {
 footer p {
   margin-bottom: .25rem;
 }
-
 .bg-dark{
   background-color: #0A5066 !important;
 }
 
 h4{
   color: #0A5066 !important;
+}
+
+.navbar-link:hover{
+  color: red;
+}
+
+.navbar-brand{
+
 }
