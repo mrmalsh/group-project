@@ -2,34 +2,7 @@
   --jumbotron-padding-y: 3rem;
 }
 
-.jumbotron {
-  padding-top: var(--jumbotron-padding-y);
-  padding-bottom: var(--jumbotron-padding-y);
-  margin-bottom: 0;
-}
 
-.background{
-  background-image: url("../img/puerto-vallarta.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 0 !important;
-  height: 300px;
-}
-
-.lead, .text-muted{
-  display: none;
-}
-
-.card-deck{
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.card{
-  margin-top: 20px;
-  height: 100%;
-}
 
 
 
@@ -72,20 +45,4 @@ h4{
 
 .navbar-link:hover{
   color: red;
-}
-
-
-@media (min-width: 576px) {
-  .background, .jumbotron{
-    height: 600px;
-  }
-  .lead, .text-muted{
-    display: block;
-  }
-}
-
-  @media (min-width: 992px) {
-  .jumbotron, .jumbotron-fluid {
-    height: 800px;
-  }
 }
