@@ -4,11 +4,12 @@
 #E6C88A
 #BF9339
 #595024
-#0A3240
-#0A5066
 */
 body {
   background-color: #0A5066;
+}
+.container {
+  margin-top: 5px;
 }
 .main {
   background-color: #E6C88A;
@@ -19,12 +20,27 @@ body {
   -moz-background-size: 100% 100%;
   -o-background-size: 100% 100%;
   background-size: 100% 100%;
-  color: #031926;
 }
-.arcos {
+.arcos p, h1 {
   font-weight: bold;
   text-shadow: lightgrey 0 0 3px;
   background-color: rgba(0, 0, 0, 0.06);
+  color: #0A3240;
+}
+.outdoor {
+  background-image: url("../img/outdoor.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  -o-background-size: auto 100%;
+  background-size: auto 100%;
+}
+.outdoor p, h1 {
+  font-weight: bold;
+  text-shadow: black 0 0 5px;
+  background-color: rgba(256, 256, 256, 0.05);
+  color: white;
 }
 footer {
   background-color: #0A3240;
