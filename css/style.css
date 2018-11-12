@@ -5,19 +5,25 @@
 #BF9339
 #595024
 */
-body {
+/*body {
   background-color: #0A5066;
-}
+}*/
+/*.container section {
+  margin-top: 0px;
+}*/
+
 .container {
   margin-top: 5px;
 }
-.main {
+
+main {
   background-color: #E6C88A;
 }
+
+/*navbar and header*/
 .jumbotron {
   padding-top: var(--jumbotron-padding-y);
   padding-bottom: var(--jumbotron-padding-y);
-  margin-bottom: 0;
 }
 
 .background{
@@ -33,6 +39,42 @@ body {
   display: none;
 }
 
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.text-muted{
+  color: black !important;
+  background-color: rgba(242, 243, 244, 0.5);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+.bg-dark{
+  background-color: #0A5066 !important;
+}
+
+h4{
+  color: #0A5066 !important;
+}
+
+
+
+/*index page content*/
 .card-deck{
   padding-top: 50px;
   padding-bottom: 50px;
