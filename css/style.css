@@ -21,7 +21,7 @@ body {
   background-size: 100% 100%;
   color: #031926;
 }
-.arcos p {
+.arcos {
   font-weight: bold;
   text-shadow: lightgrey 0 0 3px;
   background-color: rgba(0, 0, 0, 0.06);
