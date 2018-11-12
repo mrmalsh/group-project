@@ -35,6 +35,14 @@ main {
   height: 300px;
 }
 
+.deshead{
+  max-height: 200px;
+}
+
+.deshead p{
+  visibility: hidden;
+}
+
 .container-fluid{
   width: 70%;
 }
@@ -128,7 +136,7 @@ h4{
   -o-background-size: 100% 100%;
   background-size: 100% 100%;
 }
-.olas p, h1 {
+.olas p, .olas h1 {
   font-weight: bold;
   text-shadow: lightgrey 0 0 3px;
   background-color: rgba(0, 0, 0, 0.06);
