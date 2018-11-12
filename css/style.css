@@ -42,6 +42,19 @@ body {
   background-color: rgba(256, 256, 256, 0.05);
   color: white;
 }
+.olas {
+  background-image: url("../img/olasaltas.jpg");
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.olas p, h1 {
+  font-weight: bold;
+  text-shadow: lightgrey 0 0 3px;
+  background-color: rgba(0, 0, 0, 0.06);
+  color: #0A3240;
+}
 footer {
   background-color: #0A3240;
 }
