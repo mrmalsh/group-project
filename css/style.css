@@ -45,7 +45,12 @@ main {
 
 
 .jumbotron-heading {
-  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  background-color: transparent;
+  padding-top:20px;
+  padding-bottom: 10px;
+
 }
 
 .jumbotron .container {
@@ -138,6 +143,9 @@ footer {
   }
   .lead, .text-muted{
     display: block;
+  }
+  .jumbotron-heading {
+    font-size: 3rem;
   }
 }
 
