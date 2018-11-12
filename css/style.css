@@ -35,6 +35,10 @@ main {
   height: 300px;
 }
 
+.container-fluid{
+  width: 70%;
+}
+
 .lead, .text-muted{
   display: none;
 }
