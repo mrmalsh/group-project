@@ -1,0 +1,26 @@
+/*
+#468189
+#77ACA2
+#9DBEBE
+#F4E9CD
+#031926
+*/
+body {
+  background-color: #468189;
+}
+.main {
+  background-color: #F4E9CD
+}
+.arcos {
+  background-image: url("../img/losarcos1.jpg");
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  color: #031926;
+}
+.arcos p {
+  font-weight: bold;
+  text-shadow: lightgrey 0 0 3px;
+  background-color: rgba(0, 0, 0, 0.06);
+}
