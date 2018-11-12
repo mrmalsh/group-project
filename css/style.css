@@ -100,7 +100,7 @@ h4{
   -o-background-size: 100% 100%;
   background-size: 100% 100%;
 }
-.arcos p, h1 {
+.arcos p, .arcos h1 {
   font-weight: bold;
   text-shadow: lightgrey 0 0 3px;
   background-color: rgba(0, 0, 0, 0.06);
@@ -115,7 +115,7 @@ h4{
   -o-background-size: auto 100%;
   background-size: auto 100%;
 }
-.outdoor p, h1 {
+.outdoor p, .outdoor h1 {
   font-weight: bold;
   text-shadow: black 0 0 5px;
   background-color: rgba(256, 256, 256, 0.05);
@@ -136,6 +136,10 @@ h4{
 }
 footer {
   background-color: #0A3240;
+  color: white;
+}
+footer p{
+  text-align: center;
 }
 @media (min-width: 576px) {
   .background, .jumbotron{
